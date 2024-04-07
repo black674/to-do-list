@@ -1,0 +1,25 @@
+*{
+  font-family: Alex !important;
+  font-weight: 400 !important;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #191b1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TodoCard,.TodoList{
+  transition: 0.2s !important;
+}
+.TodoCard:hover{
+  padding: 10px 0;
+}
+.TodoList:hover{
+  box-shadow: -3px 6px 7px black;
+}
+@font-face {
+  font-family: Alex;
+  src: url(/FontType/Alexandria-VariableFont_wght.ttf);
+}
